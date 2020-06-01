@@ -1,11 +1,11 @@
 provider "google" {
-    credentials = "${file("../account.json")}"
-    project = "terraform-279016"
-    region = "us-west-1"
+  credentials = "${file("../account.json")}"
+  project     = "terraform-279016"
+  region      = "us-west-1"
 }
 
 provider "aws" {
-    region = "us-west-2"
+  region = "us-west-2"
 }
 # provider "azurerm" {
 #     subscription_id = "${var.subscription_id}"
@@ -16,7 +16,7 @@ provider "aws" {
 # }
 
 # variable subscription_id {
-  
+
 # }
 # variable client_id {
 
